@@ -70,10 +70,6 @@ function createPost(post){
             reject('Error:Something went wrong')
         }
           }, 2000);
-
-        
-
-
     })
 
 }
@@ -84,6 +80,7 @@ function createPost(post){
 
 
 /* ASYNC / AWAIT */
+/* This is a cleaner way of dealing with Promises */
 
 async function init(){
 
